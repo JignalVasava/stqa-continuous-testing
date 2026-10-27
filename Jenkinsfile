@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                    url: 'YOUR_GITHUB_REPOSITORY_URL'
+                git branch: 'master',
+                    url: 'https://github.com/JignalVasava/stqa-continuous-testing'
             }
         }
         stage('Install Dependencies') {
